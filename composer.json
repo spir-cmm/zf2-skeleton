@@ -1,0 +1,20 @@
+{
+    "name": "Spir ZF2 Skeleton application",
+    "authors": [
+        {
+            "name": "Antoine Delamarre VAConsulting",
+            "email": "antoine.delamarre@vaconsulting.lu"
+        }
+    ],
+    "homepage": "",
+    "require": {
+        "php": ">=5.4",
+        "zendframework/zendframework": "2.2",
+        "doctrine/doctrine-orm-module": "0.7.*",
+        "phpunit/phpunit": "3.7.21",
+        "zendframework/zend-developer-tools": "0.0.1",
+        "gedmo/doctrine-extensions": "2.3.*",
+        "doctrine/data-fixtures": "1.0.*@dev",
+        "hounddog/doctrine-data-fixture-module": "dev-master"
+    }
+}
