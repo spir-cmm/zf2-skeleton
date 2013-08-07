@@ -24,5 +24,12 @@ folowed by :
 
 `composer update`
 
-And voilà !
+At this time the vm is up and the skeleton application is accessible via the ip address you set in the
+`Vagrantfile`.
 
+If you do not comment the Zend Server recipe (`chef.add_recipe "zend-server"`) you could access it on 
+the 10081 tcp port, like this :
+
+`http://my.own.ip.address:10081`
+
+If you prefere use a domain name, edit your `hosts` file to define it.
