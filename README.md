@@ -1,6 +1,9 @@
 zf2-skeleton
 ============
 
+prerequisite: 
+  install [vagrant](http://www.vagrantup.com/) on the host OS
+
 Cd to the repository root folder and run : 
 
 You must edit the `Vagrantfile` to edit the ip address you want to set for the vm.
