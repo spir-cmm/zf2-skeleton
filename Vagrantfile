@@ -95,6 +95,7 @@ Vagrant.configure("2") do |config|
 
     chef.add_recipe "apt"
     chef.add_recipe "conf"
+    chef.add_recipe "git"
     chef.add_recipe "mariadb"
     chef.add_recipe "zend-server"
     chef.add_recipe "zend-server::xdebug"
@@ -102,8 +103,7 @@ Vagrant.configure("2") do |config|
     chef.add_recipe "zend-server::phing"
     chef.add_recipe "zend-server::phpdocumentor"
     chef.add_recipe "zend-server::phpunit"
-    chef.add_recipe "git"
-	chef.add_recipe "postfix"
+    chef.add_recipe "postfix"
     chef.add_recipe "sphinxsearch"
     chef.add_recipe "apache"
     chef.add_recipe "sass::compass"
